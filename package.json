@@ -1,0 +1,24 @@
+{
+  "name": "huss-social-network-api",
+  "version": "1.0.0",
+  "description": "Social Network Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussrizk56/Huss-Social-Network-API.git"
+  },
+  "author": "HussR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hussrizk56/Huss-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/hussrizk56/Huss-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
