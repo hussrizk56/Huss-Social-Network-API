@@ -10,10 +10,12 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network')
-.once('open', () => {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/social-network')
+.then(
   app.listen(PORT, () => {
     console.log(`API server running on port ${PORT}!`);
-  });
-});
+  })) 
+
+
+
 
