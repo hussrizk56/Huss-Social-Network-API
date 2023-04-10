@@ -76,5 +76,4 @@ Update user:
 
 Video Link: https://drive.google.com/file/d/1gY357mI7IaX9Ecw_3jorvdnBTqnlt5nQ/view
 
-Github Link: https://github.com/hussrizk56/Huss-Social-Network-API#Links
-
+Github Link: https://github.com/hussrizk56/Huss-Social-Network-API
